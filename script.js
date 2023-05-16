@@ -1,8 +1,8 @@
 const gridContainer = document.querySelector(".container");
 
 drawGrid(16);
-pointerOn();
-pointerOff();
+//pointerOn();
+//pointerOff();
 //const box = document.querySelectorAll(".box");
 //box.classList.add("active");
 
@@ -10,7 +10,7 @@ function pointerOn() {
     document.querySelectorAll('.box').forEach(box => {
         box.addEventListener('mouseover', event => {
         //handle click
-        //console.log("Hello");
+        console.log(event);
         box.classList.add("active");
         })
   })

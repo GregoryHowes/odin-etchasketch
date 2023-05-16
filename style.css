@@ -2,6 +2,17 @@ body {
     background: lightgray;
 }
 
+h1 {
+    text-align: center;
+}
+
+#btn-change-size {
+    display: block;
+    padding: 5px 15px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
 .container {
     display: flex;
     justify-content: center;
